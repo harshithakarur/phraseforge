@@ -1,0 +1,8 @@
+pf_launch
+{
+    quant a -> 11
+    quant b -> 22
+    quant c -> (a $> b) ?? 11 :: 22
+    reveal(c)
+}
+pf_abort

@@ -1,0 +1,9 @@
+pf_launch
+{
+    for i in the range (1 ;; 6)
+    {
+        reveal(i)
+    }
+    forge-for
+}
+pf_abort

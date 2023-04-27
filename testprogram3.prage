@@ -1,0 +1,9 @@
+pf_launch
+{
+    for(int i -> 0;; i$<7;; i++)
+    {
+        reveal(i)
+    }
+    forge-for
+}
+pf_abort

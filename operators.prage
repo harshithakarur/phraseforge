@@ -1,0 +1,18 @@
+pf_launch
+{
+    quant h -> 10
+    quant b -> 20
+    quant sum -> h + k
+    quant difference -> h - k
+    quant product -> h * k
+    quant quotient -> k/h
+
+    quant bodmas -> ((6 + 7) * (9)) / ( 6 - 2)
+
+    reveal(@sum@ , sum)
+    reveal(@subtraction@, difference)
+    reveal(@multiplication@ , product)
+    reveal(@Division@ , quotient)
+    reveal(@bodmas@, bodmas)
+}
+pf_abort
